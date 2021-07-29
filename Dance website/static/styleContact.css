@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+    /* margin: 10px 0px; */
+    font-family: 'Merienda', cursive;
+}
+.myInput{
+    width: 40%;
+    padding: 7px;
+    margin: 10px;
+    font-size: 15px;
+    border: 2px solid rgb(99, 48, 48);
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Dancing Script', cursive;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn{
+    padding: 6px 20px;
+    font-size: 20px;
+    border: 2px solid rgb(122, 64, 64);
+    border-radius: 10px;
+    color: white;
+    background-color: gray;
+    font-family: 'Dancing Script', cursive;
+    outline: none;
+    margin: 15px;
+}
+.btn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: red;
+}
+.container{
+    min-height: 88vh;
+    background: center / cover no-repeat url("/static/bg1.jpg");
+}

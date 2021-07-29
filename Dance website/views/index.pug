@@ -1,0 +1,67 @@
+
+doctype html
+html
+  head
+    title Harry Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        ul 
+            div#logo 
+              img(src="/static/img/logo.png")
+              | HDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+    section#introSection 
+      div Welcome to Harry's Dance Academy 
+      div.small DANCE CLASSES With an aim to provide quality dance training and making dance available to all, Harry dance academy run throughout the year at multiple locations for students from ages four to eighty four providing them with training in various dance styles by Harry’s expert faculty. The classes give them an opportunity to learn dance, express themselves creatively and perform on stage. Classes are available for children (4 to 6 years), juniors (7 to 11 years) and adults (12 years onwards). 
+
+    section#missionSection 
+      h2 Our Mission
+      div.card 
+        h3 Dance Plus
+        div.card-box 
+          div.card-img 
+            img(src="/static/img/1.png")
+
+          div.card-content 
+            p Dance Plus is an Indian reality competition television series produced by Frames Production house and Urban Brew Studios.
+
+      dih3.card 
+        h3 Dance the way you like
+        div.card-box 
+          div.card-img 
+            img(src="/static/img/2.png")
+
+          div.card-content 
+            p You can dance in a group, with a partner, or on your own.
+
+      dih3.card 
+        h3 Expert Teaching
+        div.card-box 
+          div.card-img 
+            img(src="/static/img/3.png")
+
+          div.card-content 
+            p Learning, thought, creativity, and intelligence don’t just come from the brain alone, but from the entire body.
+
+         
+
+    section#sponsorsSection 
+      h2 Our Sponsors
+      div#sponsors 
+        img(src="/static/img/logo1.png", alt="Sponsor Image", class="spImage")
+        img(src="/static/img/logo2.png", alt="Sponsor Image", class="spImage")
+        img(src="/static/img/logo3.png", alt="Sponsor Image", class="spImage")
+        img(src="/static/img/logo4.png", alt="Sponsor Image", class="spImage")
+
+    
+
+
+    script
+      include ../static/index.js
